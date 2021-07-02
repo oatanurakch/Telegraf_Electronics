@@ -18,8 +18,8 @@ char message[256];
 WiFiClient client;
 PubSubClient mqtt(client);
 
-float temp = 25;
-float humid = 75;
+float temp;
+float humid;
 
 void setup() {
   Serial.begin(115200);
