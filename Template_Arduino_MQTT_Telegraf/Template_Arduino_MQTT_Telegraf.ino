@@ -7,6 +7,7 @@ const char* broker = "electsut.ddns.net";
 const char* topicOut = "b6106164/sensor";
 const char* topicIn = "b6106164/in";
 
+//Define Wifi data for connect
 #define WIFI_STA_NAME "MSI GL63-ANR"
 #define WIFI_STA_PASS "anrpnd310363"
 
